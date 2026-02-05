@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "https://www.bing.com/rewardsapp/widgetassets*",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "script",
+        "main_frame",
+        "sub_frame",
+        "stylesheet",
+        "font",
+        "image",
+        "media",
+        "object",
+        "ping",
+        "csp_report",
+        "other"
+      ]
+    }
+  }
+]
