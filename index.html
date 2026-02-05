@@ -72,24 +72,7 @@
         <p style="background: #e3f2fd; padding: 15px; border-radius: 5px; border-left: 4px solid #2196f3;">
             <strong>💼 For IT Administrators:</strong> See <a href="#intune">Enterprise Deployment via Intune</a> or <a href="#registry">Manual Registry Deployment</a> sections below for managed installation.
         </p>
-        
-        <div class="download-section">
-            <h2>Download Extension</h2>
-            <a href="/mnahmodpdgglcckpijjdcbdnblbcffkh.crx" class="download-btn">⬇️ Download Extension</a>
-            <p><small>For Linux users only. Chrome extensions can only be self-hosted on Linux.</small></p>
-        </div>
 
-        <div class="install-steps">
-            <h2>Installation Instructions (Linux Only)</h2>
-            <ol>
-                <li>Download the <code>crx</code> file using the button above</li>
-                <li>Open Chrome and navigate to <code>chrome://extensions/</code></li>
-                <li>Enable "Developer mode" using the toggle in the top-right corner</li>
-                <li>Drag and drop the <code>crx</code> file onto the extensions page</li>
-                <li>Click "Add extension" when prompted</li>
-                <li>The extension will automatically check for updates</li> id="intune"
-            </ol>
-        </div>
 
         <div class="install-steps" style="background: #fff3e0; border-left-color: #ff9800;" id="intune">
             <h2>🏢 Enterprise Deployment via Microsoft Intune</h2>
@@ -110,7 +93,7 @@
             
             <div style="background: white; padding: 15px; border-radius: 5px; margin: 10px 0; border: 1px solid #ddd;">
                 <strong>Registry Path:</strong><br>
-                <code>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallForcelist</code><br><br>
+                <code>HKLM\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallForcelist</code><br><br>
                 <strong>Value Name:</strong> <code>1</code> (or next available number)<br>
                 <strong>Value Data:</strong> <code>mnahmodpdgglcckpijjdcbdnblbcffkh;https://calm-river-0b3f57803.2.azurestaticapps.net/updates.xml</code>
             </div>
@@ -134,9 +117,6 @@
         <h2>Version</h2>
         <p>Current version: <strong>1.0.0</strong></p>
         
-        <h2>Updates</h2>
-        <p>The extension will automatically check for updates. You can also manually check by going to <code>chrome://extensions/</code> and clicking "Update" at the top.</p>
-
         <hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">
         
         <p style="text-align: center; color: #666;">
