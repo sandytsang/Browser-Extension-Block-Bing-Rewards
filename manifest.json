@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "description": "Blocks Bing rewards API to hide the rewards icon and count from Bing.com",
   "author": "Sandy Zeng",
+  "update_url": "https://calm-river-0b3f57803.2.azurestaticapps.net/updates.xml",
   "permissions": [
     "declarativeNetRequest"
   ],

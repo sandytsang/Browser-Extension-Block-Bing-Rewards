@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bing Rewards Blocker Extension</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #0078d4;
+            padding-bottom: 10px;
+        }
+        .download-section {
+            background: #e7f3ff;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .download-btn {
+            display: inline-block;
+            background: #0078d4;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .download-btn:hover {
+            background: #005a9e;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+        .install-steps {
+            background: #f9f9f9;
+            padding: 20px;
+            border-left: 4px solid #0078d4;
+            margin: 20px 0;
+        }
+        .install-steps ol {
+            padding-left: 20px;
+        }
+        .install-steps li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚫 Bing Rewards Blocker Extension</h1>
+        
+        <p>A Chrome extension that blocks the Bing rewards API to hide the rewards icon and count from Bing.com.</p>
+        
+        <div class="download-section">
+            <h2>Download Extension</h2>
+            <a href="/main.crx" class="download-btn">⬇️ Download main.crx</a>
+            <p><small>For Linux users only. Chrome extensions can only be self-hosted on Linux.</small></p>
+        </div>
+
+        <div class="install-steps">
+            <h2>Installation Instructions (Linux Only)</h2>
+            <ol>
+                <li>Download the <code>main.crx</code> file using the button above</li>
+                <li>Open Chrome and navigate to <code>chrome://extensions/</code></li>
+                <li>Enable "Developer mode" using the toggle in the top-right corner</li>
+                <li>Drag and drop the <code>main.crx</code> file onto the extensions page</li>
+                <li>Click "Add extension" when prompted</li>
+                <li>The extension will automatically check for updates</li>
+            </ol>
+        </div>
+
+        <h2>What it does</h2>
+        <p>This extension blocks the URL <code>https://www.bing.com/rewardsapp/widgetassets</code> which is used by Bing to display the rewards icon and points counter.</p>
+
+        <h2>Technical Details</h2>
+        <ul>
+            <li>Uses Manifest V3 (latest extension standard)</li>
+            <li>Uses <code>declarativeNetRequest</code> API for efficient URL blocking</li>
+            <li>No background scripts needed</li>
+            <li>Lightweight and efficient</li>
+        </ul>
+
+        <h2>Version</h2>
+        <p>Current version: <strong>1.0.0</strong></p>
+        
+        <h2>Updates</h2>
+        <p>The extension will automatically check for updates. You can also manually check by going to <code>chrome://extensions/</code> and clicking "Update" at the top.</p>
+
+        <hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">
+        
+        <p style="text-align: center; color: #666;">
+            <small>
+                Update manifest: <a href="/updates.xml">updates.xml</a><br>
+                Extension ID: <code>mnahmodpdgglcckpijjdcbdnblbcffkh</code>
+            </small>
+        </p>
+    </div>
+</body>
+</html>
