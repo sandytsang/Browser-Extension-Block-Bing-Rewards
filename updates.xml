@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <gupdate xmlns='http://www.google.com/update2/response' protocol='2.0'>
   <app appid='mnahmodpdgglcckpijjdcbdnblbcffkh'>
-    <updatecheck codebase='https://calm-river-0b3f57803.2.azurestaticapps.net/main.crx' version='1.0.0' />
+    <updatecheck codebase='https://calm-river-0b3f57803.2.azurestaticapps.net/mnahmodpdgglcckpijjdcbdnblbcffkh.crx' version='1.0.0' />
   </app>
 </gupdate>
