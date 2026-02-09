@@ -1,8 +1,0 @@
-# Ignore everything by default
-*
-
-# Include only necessary files for the extension hosting
-!mnahmodpdgglcckpijjdcbdnblbcffkh.crx
-!updates.xml
-!staticwebapp.config.json
-!index.html
