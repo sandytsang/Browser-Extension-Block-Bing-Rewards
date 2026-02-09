@@ -2,15 +2,11 @@
   "manifest_version": 3,
   "name": "Bing Rewards Blocker",
   "short_name": "Reward Block",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Blocks Bing rewards API to hide the rewards icon and count from Bing.com",
   "author": "Sandy Zeng",
-  "update_url": "https://calm-river-0b3f57803.2.azurestaticapps.net/updates.xml",
   "permissions": [
     "declarativeNetRequest"
-  ],
-  "host_permissions": [
-    "*://*.bing.com/*"
   ],
   "declarative_net_request": {
     "rule_resources": [
