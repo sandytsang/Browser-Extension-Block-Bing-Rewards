@@ -13,5 +13,7 @@ This extension blocks the URL `https://www.bing.com/rewardsapp/widgetassets` whi
 - Blocks all resource types from the rewards API endpoint
 - No background scripts needed, making it lightweight and efficient
 
-Self-Hosted Extension is in https://calm-river-0b3f57803.2.azurestaticapps.net/
+https://microsoftedge.microsoft.com/addons/detail/bing-rewards-blocker/laiapkhlpdiefcdgphjkeifjdbhjfgpf?hl=en-US
+
+https://chromewebstore.google.com/detail/bing-rewards-blocker/mnahmodpdgglcckpijjdcbdnblbcffkh
 
